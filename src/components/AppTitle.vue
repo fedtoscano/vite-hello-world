@@ -1,18 +1,17 @@
 <script>
-import { AppTitle } from "./components/AppTitle";
 export default {
-  components:{
-    AppTitle
-  }
     data() {
         return {
+        message: "La mia prima app con Vite!"
     }
     }
 }
 </script>
 
 <template>
-<AppTitle/>
+        <h1>
+            {{ message }}
+        </h1>
 </template>
 
 <style scoped>
