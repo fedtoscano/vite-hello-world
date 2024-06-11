@@ -1,9 +1,5 @@
 <script>
-import { AppTitle } from "./components/AppTitle";
 export default {
-  components:{
-    AppTitle
-  },
     data() {
         return {
     }
@@ -12,7 +8,7 @@ export default {
 </script>
 
 <template>
-<AppTitle/>
+    <img src="../assets/helldivers2-pic_files/" alt="">
 </template>
 
 <style scoped>
